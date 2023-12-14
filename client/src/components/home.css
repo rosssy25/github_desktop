@@ -1,0 +1,32 @@
+/* home.css */
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-button {
+  margin-top: 15px;
+  background-color: orangered;
+}
+
+.logout-button {
+  margin-top: 15px;
+  background-color: dodgerblue;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styles as needed */
